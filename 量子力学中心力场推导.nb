@@ -23,10 +23,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[      1060,         20]
-NotebookDataLength[     13231,        355]
-NotebookOptionsPosition[     13379,        349]
-NotebookOutlinePosition[     13795,        366]
-CellTagsIndexPosition[     13752,        363]
+NotebookDataLength[     13201,        353]
+NotebookOptionsPosition[     13349,        347]
+NotebookOutlinePosition[     13765,        364]
+CellTagsIndexPosition[     13722,        361]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -322,29 +322,27 @@ b538aaf62ec3"],
 
 Cell[BoxData[
  RowBox[{
-  RowBox[{
-   RowBox[{"radialEquationH", "=", 
-    RowBox[{"FullSimplify", "[", 
-     RowBox[{
-      FractionBox["requation", 
-       RowBox[{"Coefficient", "[", 
-        RowBox[{"requation", ",", 
-         RowBox[{
-          RowBox[{"w", "''"}], "[", "\[Rho]", "]"}]}], "]"}]], "/.", 
-      RowBox[{"{", 
-       RowBox[{
-        RowBox[{"\[Nu]", "->", 
-         RowBox[{"-", "1"}]}], ",", 
-        RowBox[{"\[Lambda]", "->", 
-         RowBox[{"-", 
-          SuperscriptBox["e", "2"]}]}]}], "}"}]}], "]"}]}], ";"}], 
-  "\[IndentingNewLine]"}]], "Input",
+  RowBox[{"radialEquationH", "=", 
+   RowBox[{"FullSimplify", "[", 
+    RowBox[{
+     FractionBox["requation", 
+      RowBox[{"Coefficient", "[", 
+       RowBox[{"requation", ",", 
+        RowBox[{
+         RowBox[{"w", "''"}], "[", "\[Rho]", "]"}]}], "]"}]], "/.", 
+     RowBox[{"{", 
+      RowBox[{
+       RowBox[{"\[Nu]", "->", 
+        RowBox[{"-", "1"}]}], ",", 
+       RowBox[{"\[Lambda]", "->", 
+        RowBox[{"-", 
+         SuperscriptBox["e", "2"]}]}]}], "}"}]}], "]"}]}], ";"}]], "Input",
  CellChangeTimes->{{3.9402430313849945`*^9, 3.9402430669373627`*^9}, {
    3.940243174828039*^9, 3.9402431909225483`*^9}, {3.940299295220413*^9, 
    3.940299377372118*^9}, {3.9402996295466366`*^9, 3.9402997112518654`*^9}, {
    3.9402999583661766`*^9, 3.940299997275242*^9}, 3.9403000466097336`*^9, {
-   3.940300091460747*^9, 
-   3.940300112320698*^9}},ExpressionUUID->"7a9d1805-faf3-2945-b3d9-\
+   3.940300091460747*^9, 3.940300112320698*^9}, 
+   3.9403004841746826`*^9},ExpressionUUID->"7a9d1805-faf3-2945-b3d9-\
 8e743348198c"]
 },
 WindowSize->{960, 472},
@@ -369,7 +367,7 @@ Cell[1460, 33, 6285, 165, 382, "Input",ExpressionUUID->"d5d50eb7-7967-bf44-b792-
 Cell[7748, 200, 1796, 46, 126, "Input",ExpressionUUID->"14d05c2a-3498-eb47-91dc-aa09fbd0e331"],
 Cell[9547, 248, 1068, 25, 61, "Input",ExpressionUUID->"ee8ca45c-de1d-d74a-995d-7cba257d7d3a"],
 Cell[10618, 275, 1767, 45, 191, "Input",ExpressionUUID->"73b52731-9e38-9e41-92e9-b538aaf62ec3"],
-Cell[12388, 322, 987, 25, 84, "Input",ExpressionUUID->"7a9d1805-faf3-2945-b3d9-8e743348198c"]
+Cell[12388, 322, 957, 23, 60, "Input",ExpressionUUID->"7a9d1805-faf3-2945-b3d9-8e743348198c"]
 }
 ]
 *)
